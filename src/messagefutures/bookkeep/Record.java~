@@ -29,6 +29,12 @@ public class Record {
 
 	public void setWriteSet(	
 		HashMap<String, String> writeSet) {
+		for(String row: writeSet.keySet())
+		/*{
+			System.out.println("row "+row);
+			for(String col : writeSet.get(row).keySet())
+				System.out.println(" "+col+"  "+writeSet.get(row).get(col));
+		}*/
 		this.writeSet = writeSet;
 	}
 	

@@ -22,7 +22,7 @@ public class Common {
 	public static String familyName = "course";
 	public static String qualifier = "compsci";
 	public static int timeout = 5;
-	public static String FilePath = "/home/logs/";
+	public static String FilePath = "/home/sivabalan/eclipse/workspace/hbaseworkout/src/logs/";
 	
 	//Static Functions
 	public static <T> String Serialize(T message)

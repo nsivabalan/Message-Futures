@@ -1,11 +1,11 @@
-package messagefutures.event;
 
-import java.util.ArrayList;
+
 import java.util.HashMap;
 
-public class CommitEvent extends Event{
+public class PendingEvent extends Event{
 	private Integer TransactionNumber;
-	public CommitEvent(Integer txnNumber,EventType type ,String source,HashMap<String,String> writeSet)
+	
+	public PendingEvent(Integer txnNumber,EventType type,String source, HashMap<String,String> writeSet)
 	{
 		super(type,source,writeSet);
 		this.TransactionNumber = txnNumber;

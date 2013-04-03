@@ -1,4 +1,5 @@
-package messagefutures.message;
+
+
 
 public class ClientResponse extends MessageBase{
 	

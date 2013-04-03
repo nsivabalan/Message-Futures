@@ -1,4 +1,4 @@
-package messagefutures.message;
+
 
 public enum MessageType {
 	BEGIN, READ, WRITE, COMMIT, ABORT, SCAN, COMMITACK, ABORTACK, PROPLOG, LISTACTIVE, LISTPENDING, LOGPROPAGATE, ACK; 

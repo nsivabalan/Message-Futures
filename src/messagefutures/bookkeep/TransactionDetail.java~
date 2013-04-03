@@ -4,8 +4,8 @@ import java.util.Date;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-//class which holds all details pertaining to a particular transaction
 public class TransactionDetail {
+	//private HbaseTranx;    
 	private Integer transactionNumber;
 	private Record record;
 	private String clientIP;
@@ -26,6 +26,7 @@ public class TransactionDetail {
 	}
 
 	private Integer lastPropTime;
+	//fetch LPT event number change LastPropTime to LPT
 	public TransactionDetail(String clientIP,Integer txnNumber)
 	{
 		this.record = new Record();

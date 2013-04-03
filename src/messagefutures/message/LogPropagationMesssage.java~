@@ -1,7 +1,7 @@
-package messagefutures.message;
-
-import messagefutures.event.*;
 import java.util.HashMap;
+
+
+
 
 public class LogPropagationMesssage extends MessageBase{
 

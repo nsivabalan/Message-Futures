@@ -5,9 +5,9 @@ import java.util.HashMap;
 public class PendingEvent extends Event{
 	private Integer TransactionNumber;
 	
-	public PendingEvent(Integer txnNumber,EventType type, HashMap<String,HashMap<String,String>> writeSet)
+	public PendingEvent(Integer txnNumber,EventType type,String source, HashMap<String,String> writeSet)
 	{
-		super(type,writeSet);
+		super(type,source,writeSet);
 		this.TransactionNumber = txnNumber;
 	}
 	public EventType getType() {
